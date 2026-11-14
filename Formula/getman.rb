@@ -3,28 +3,28 @@
 class Getman < Formula
   desc "Local-first, account-free API client: a Postman alternative"
   homepage "https://fzn0x.github.io/getman/"
-  version "0.3.2"
+  version "0.3.3"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/fzn0x/getman/releases/download/v0.3.2/getman-v0.3.2-aarch64-apple-darwin.tar.gz"
-      sha256 "eb80960ae29ae9108b022f9b273bc8dd81901362d764a3d360d46c269c529ac9"
+      url "https://github.com/fzn0x/getman/releases/download/v0.3.3/getman-v0.3.3-aarch64-apple-darwin.tar.gz"
+      sha256 "61aa917ac799564314862826925827b5670ca33d4c39b48fb3f3b22b83dbcbb4"
     end
     on_intel do
-      url "https://github.com/fzn0x/getman/releases/download/v0.3.2/getman-v0.3.2-x86_64-apple-darwin.tar.gz"
-      sha256 "094aed2893cb00ba9994789e33d1a3fb34c6aaa3aab9877cbc0622e7260f7ec9"
+      url "https://github.com/fzn0x/getman/releases/download/v0.3.3/getman-v0.3.3-x86_64-apple-darwin.tar.gz"
+      sha256 "b0a6843ef3d29c2317940e4abf87665c11a66d7039b9b75bb3fffdc4b84d0cb8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fzn0x/getman/releases/download/v0.3.2/getman-v0.3.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a2d39c40a9fe1208bfced32983c5843a3ac5ec753f630f6c30c61b372abdd5fa"
+      url "https://github.com/fzn0x/getman/releases/download/v0.3.3/getman-v0.3.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bbe0a5084a0fdee99a0a2afe1b161ed3643500612a3150d60cc842b99b19fdb0"
     end
     on_intel do
-      url "https://github.com/fzn0x/getman/releases/download/v0.3.2/getman-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2b07d89d7007a6ca4263e51757f1e66b9591f67186f1131564d1f102c702914a"
+      url "https://github.com/fzn0x/getman/releases/download/v0.3.3/getman-v0.3.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5b88b95f160941c92b4c691c5dc6da5fa1f57f9cdd692c747d0627c35a58a3cf"
     end
   end
 
