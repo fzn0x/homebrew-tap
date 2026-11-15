@@ -1,30 +1,30 @@
 # Homebrew formula for the getman command, for the tap fzn0x/homebrew-tap
 # (Formula/getman.rb). Written for each release by packaging/render.mjs.
 class Getman < Formula
-  desc "Local-first, account-free API client: a Postman alternative"
+  desc "Open-source Postman alternative written in Rust"
   homepage "https://fzn0x.github.io/getman/"
-  version "0.3.4"
-  license any_of: ["MIT", "Apache-2.0"]
+  version "0.4.0"
+  license any_of: ["MIT", "GPL-3.0-or-later"]
 
   on_macos do
     on_arm do
-      url "https://github.com/fzn0x/getman/releases/download/v0.3.4/getman-v0.3.4-aarch64-apple-darwin.tar.gz"
-      sha256 "ce65a93af528a58ba899bbbb429545f5d7f92189660736f855942378cbe1a947"
+      url "https://github.com/fzn0x/getman/releases/download/v0.4.0/getman-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "45a26573b92e1f08a3c2c6262970ec3c9f2c39fa957b91b560263073d6253a0a"
     end
     on_intel do
-      url "https://github.com/fzn0x/getman/releases/download/v0.3.4/getman-v0.3.4-x86_64-apple-darwin.tar.gz"
-      sha256 "24484b053507a4e7bc513acc3bad4575a346349ea3cdf4e54f19012c2e13b087"
+      url "https://github.com/fzn0x/getman/releases/download/v0.4.0/getman-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "42ac838d771b9e430b048a172075f843163e334ea862de9ef3a6064bdf7e8837"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fzn0x/getman/releases/download/v0.3.4/getman-v0.3.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f97496831948cbc6cfdb1c70c384cf78f12eab28c38256b85f7b3cbb0c02a3b0"
+      url "https://github.com/fzn0x/getman/releases/download/v0.4.0/getman-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "aea7d81eab9519a9cf5566752a9204aa11a0ed129c0b2022c38ceab679409401"
     end
     on_intel do
-      url "https://github.com/fzn0x/getman/releases/download/v0.3.4/getman-v0.3.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8441b9d1ffa32412e70e57bb5d559b69c56ac1861d0fc0aac7b8753e838e6772"
+      url "https://github.com/fzn0x/getman/releases/download/v0.4.0/getman-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "74f2b3a17035c5b54b56f5a4a8bdafcee224a757880c3808f4be9cecb76ae11c"
     end
   end
 
