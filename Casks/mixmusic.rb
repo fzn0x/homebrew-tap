@@ -1,8 +1,8 @@
 # Written for each release by tools/cask of github.com/fzn0x/mixmusic, from
 # packaging/homebrew/mixmusic.rb.tmpl: change that, not this.
 cask "mixmusic" do
-  version "0.5.11"
-  sha256 "0cf9a1c88f29c85a4938324b525d358586c630f256b2c1439708452f689f32da"
+  version "0.5.12"
+  sha256 "438d01b73893d5a840bfcc2c64f37327ef2208b73f37eb52a0f5f1696bf7cc93"
 
   url "https://github.com/fzn0x/mixmusic/releases/download/v#{version}/mixmusic-#{version}-macos-universal.dmg"
   name "MixMusic"
